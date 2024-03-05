@@ -1,8 +1,8 @@
 package lexer
 
 import (
+	"minhtri6179/interpreter-in-go/token"
 	"testing"
-	"token"
 )
 
 func TestNextToken(t *testing.T) {
