@@ -6,6 +6,7 @@ type Token struct {
 	Literal string
 }
 
+// Limited set of tokens this toy language will support
 const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
